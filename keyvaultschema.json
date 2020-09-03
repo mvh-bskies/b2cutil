@@ -1,8 +1,11 @@
 {
-    "$schema": "http://json-schema.org/schema",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "$id": "https://raw.githubusercontent.com/mvh-bskies/b2cutil/master/keyvaultschema.json",
     "type": "object",
     "properties": {
+        "$schema": {
+            "type": "string"
+        },
         "tenantId": {
             "type": "string"
         },
@@ -17,5 +20,6 @@
         "tenantId",
         "subscriptionId",
         "keyvaultName"
-    ]
+    ],
+    "additionalProperties": false
 }
