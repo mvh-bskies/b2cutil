@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/schema",
-    "$id": "https://github.com/mvh-bskies/b2cutil/blob/master/keyvaultschema.json"
+    "$id": "https://github.com/mvh-bskies/b2cutil/blob/master/keyvaultschema.json",
     "tenantId": {
         "type": "string"
     },
