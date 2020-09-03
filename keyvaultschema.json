@@ -1,13 +1,16 @@
 {
     "$schema": "http://json-schema.org/schema",
     "$id": "https://raw.githubusercontent.com/mvh-bskies/b2cutil/master/keyvaultschema.json",
-    "tenantId": {
-        "type": "string"
-    },
-    "subscriptionId":{
-        "type":"string"
-    },
-    "keyvaultName":{
-        "type":"string"
+    "type": "object",
+    "properties": {
+        "tenantId": {
+            "type": "string"
+        },
+        "subscriptionId": {
+            "type": "string"
+        },
+        "keyvaultName": {
+            "type": "string"
+        }
     }
 }
