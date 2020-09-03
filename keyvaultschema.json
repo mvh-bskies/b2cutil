@@ -12,5 +12,10 @@
         "keyvaultName": {
             "type": "string"
         }
-    }
+    },
+    "required": [
+        "tenantId",
+        "subscriptionId",
+        "keyvaultName"
+    ]
 }
