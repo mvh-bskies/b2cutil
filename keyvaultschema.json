@@ -1,0 +1,12 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "tenantId": {
+        "type": "string"
+    },
+    "subscriptionId":{
+        "type":"string"
+    },
+    "keyvaultName":{
+        "type":"string"
+    }
+}
